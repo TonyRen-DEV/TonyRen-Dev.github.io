@@ -5,7 +5,7 @@ Many GitHub repositories don't use GitHub Pages to host their HTML files. **GitH
 
 If you try to open raw versions of any HTML, CSS or JS files in a web browser directly from GitHub, all you will see are sources. GitHub forces them to use the "text/plain" content-type, so they cannot be interpreted. This script overrides it by using Yahoo! Query Language.
 
-In order to use it, just prepend this fragment to the URL of any HTML file: **[http://htmlpreview.github.io/?](http://htmlpreview.github.io/?)** e.g.:
+In order to use it, just prepend this fragment to the URL of any HTML file: **[http://TonyRen-Dev.github.io/?](http://TonyRen-Dev.github.io/?)** e.g.:
 
  - http://htmlpreview.github.io/?https://github.com/twbs/bootstrap/gh-pages/2.3.2/index.html
  - http://htmlpreview.github.io/?https://github.com/documentcloud/backbone/blob/master/examples/todos/index.html
