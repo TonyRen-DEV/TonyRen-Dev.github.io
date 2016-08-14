@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+Input<br>
+<textarea id="myTextarea" rows="20" cols="50" ></textarea>
+
+<br/>
+
+<button type="button" onclick="myFunction()">Try it</button>
+<br/>
+
+<textarea id="outTextarea" rows="20" cols="50" ></textarea>
+
+
+<script>
+function myFunction() {
+var inputstr=document.getElementById("myTextarea").value;
+var outoutstr=inputstr.split('17').join('18').split('VND').join('IDR');//replace("VND", "IDR");
+outoutstr+='\n'+inputstr.split('17').join('19').split('VND').join('INR');
+outoutstr+='\n'+inputstr.split('17').join('20').split('VND').join('LKR');
+outoutstr+='\n'+inputstr.split('17').join('21').split('VND').join('PHP');
+outoutstr+='\n'+inputstr.split('17').join('22').split('VND').join('FJD');
+    document.getElementById("outTextarea").value = outoutstr;
+}
+</script>
+
+</body>
+</html>
