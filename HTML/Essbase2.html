@@ -7,13 +7,17 @@ Input<br>
 
 <br/>
 
-<button type="button" onclick="myFunction()">Try it</button>
-<br/>
+<button type="button" onclick="myFunction()">Change/button>
+<button type="button" onclick="ClearFunction()">Clear/button>
+Output<br/>
 
 <textarea id="outTextarea" rows="20" cols="50" ></textarea>
 
 
 <script>
+function ClearFunction(){
+    document.getElementById("myTextarea").value='';
+}
 function myFunction() {
 var inputstr=document.getElementById("myTextarea").value;
 var outoutstr=inputstr.split('17').join('18').split('VND').join('IDR');//replace("VND", "IDR");
